@@ -4,13 +4,14 @@
         margin :0;
         box-sizing: border-box;
      }
+     html,
      body {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 30.5%;
+        font-size: 62.5.5%;
  
     }
     body{
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
     .container {
         display: flex;
@@ -18,19 +19,46 @@
         height: 100vh;
         align-items: center;
         justify-content: center;
-        gap: 1rem;
+        gap: 4rem;
 
     }
 
     .search{
         display: flex;
         width: 50%;
+        max-width: 60rem;
 
     }
-    .searchInput{
+    .search input{
      padding: 1rem;
-    width: 200%;
+     width: 100%;
     }
-     
+    .search input :focus-visible{
+        outline:1px solid purple;
+    }
+
    
+    .primary-btn{
+        background-color: purple;
+        color: white;
+        padding: 0.5rem 1 rem;
+        border:none;
+    }
+    .primary-btn:hover{
+        background: rgba(55, 1, 55, 0.788);
+    }
+    .primary-btn:active{
+        background: rgba(55, 1, 55, 0.788);
+    }
+   #profileContainer {
+    width: 100%;
+   }
+   .profile-box {
+    margin: auto;
+    padding: 4rem 2rem;
+    width: 90%;
+    max-width: 78rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-in;
+  }
    
