@@ -25,7 +25,7 @@
 
     .search{
         display: flex;
-        width: 50%;
+        width: 100%;
         max-width: 60rem;
 
     }
@@ -41,7 +41,7 @@
     .primary-btn{
         background-color: purple;
         color: white;
-        padding: 0.5rem 1 rem;
+        padding: 2 rem;
         border:none;
     }
     .primary-btn:hover{
